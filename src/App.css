@@ -1,0 +1,71 @@
+* {
+  font-family: "Poppins" !important;
+}
+
+/* Poppins font */
+@font-face {
+  font-family: "Poppins";
+  font-weight: 100;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: local("Poppins"), url(./Assets/Fonts/Poppins/Poppins-Black.ttf);
+}
+
+/* Akshar font */
+@font-face {
+  font-family: "Akshar";
+  font-weight: 300;
+  src: local("Akshar"), url(./Assets/Fonts/Akshar/Akshar-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Akshar";
+  font-weight: 400;
+  src: local("Akshar"), url(./Assets/Fonts/Akshar/Akshar-SemiBold.ttf);
+}
