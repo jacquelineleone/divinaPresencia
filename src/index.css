@@ -1,15 +1,47 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
   background-color: #14130c;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: "Akshar" !important;
+  letter-spacing: 2%;
+}
+
+h4 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ededed;
 }
 
 p {
   color: #ededed;
+  font-size: 1.1rem;
 }
 
 a {
