@@ -1,0 +1,5 @@
+[
+    {"image": "../../../Assets/Images/Home/Producto01.png", "name": "Producto 01", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+    {"image": "../../../Assets/Images/Home/Producto02.png", "name": "Producto 02", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+    {"image": "../../../Assets/Images/Home/Producto03.png", "name": "Producto 03", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+]

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 89px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  gap: 64px;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.content h6 {
+  color: #efa749;
+  font-size: 1.5rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  max-width: 392px;
+  text-align: center;
+}
