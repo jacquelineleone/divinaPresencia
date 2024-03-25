@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Nav() {
   return (
     <div>
-      <h4>La divina presencia</h4>
+      <h2>La divina presencia</h2>
       <div>
         <Link>
           <p>Home</p>
