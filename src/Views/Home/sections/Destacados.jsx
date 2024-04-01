@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../styles/destacados.module.css";
 import productos from "../json/destacados.json";
-import imagen from "../../../Assets/Images/Home/Producto01.png";
 
 const Product = ({ image, name, description }) => {
   return (
