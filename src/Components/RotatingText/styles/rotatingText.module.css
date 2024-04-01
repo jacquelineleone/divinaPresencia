@@ -1,0 +1,26 @@
+.textContainer {
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: -50px;
+}
+
+.text {
+  display: flex;
+  gap: 25px;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.text h4 {
+  display: block;
+  white-space: nowrap;
+  font-size: 8rem;
+}
