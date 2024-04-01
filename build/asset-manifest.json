@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6671dd7e.css",
+    "main.js": "/static/js/main.f8f006d6.js",
+    "static/js/453.fd6f0031.chunk.js": "/static/js/453.fd6f0031.chunk.js",
+    "static/media/background.png": "/static/media/background.e1bef91028f26cd45157.png",
+    "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.59ff6a729e30c99b478e.ttf",
+    "static/media/Poppins-ExtraLight.ttf": "/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
+    "static/media/Poppins-Black.ttf": "/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/Akshar-SemiBold.ttf": "/static/media/Akshar-SemiBold.6f7a17a78ad093aa1f21.ttf",
+    "static/media/Akshar-Medium.ttf": "/static/media/Akshar-Medium.de8065021058495dec42.ttf",
+    "static/media/logo.png": "/static/media/logo.09577afd787b8e9adc41.png",
+    "static/media/Item2.svg": "/static/media/Item2.c7266c685ca4182f8c804659be61672b.svg",
+    "static/media/Item1.svg": "/static/media/Item1.7c2564df9c37f54c9489b19b3e0146a4.svg",
+    "static/media/instagram.svg": "/static/media/instagram.73246216c65c9e5a1be91c86502b678d.svg",
+    "index.html": "/index.html",
+    "main.6671dd7e.css.map": "/static/css/main.6671dd7e.css.map",
+    "main.f8f006d6.js.map": "/static/js/main.f8f006d6.js.map",
+    "453.fd6f0031.chunk.js.map": "/static/js/453.fd6f0031.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6671dd7e.css",
+    "static/js/main.f8f006d6.js"
+  ]
+}
