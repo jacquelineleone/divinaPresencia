@@ -1,5 +1,17 @@
 [
-    {"image": "../../../Assets/Images/Home/Producto01.png", "name": "Producto 01", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
-    {"image": "../../../Assets/Images/Home/Producto02.png", "name": "Producto 02", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
-    {"image": "../../../Assets/Images/Home/Producto03.png", "name": "Producto 03", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+  {
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711989246/Divina%20Presencia/Producto01_vol7an.png",
+    "name": "Producto 01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711989474/Divina%20Presencia/Producto02_h2kq75.png",
+    "name": "Producto 02",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711989252/Divina%20Presencia/Producto03_lpdrqn.png",
+    "name": "Producto 03",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  }
 ]
