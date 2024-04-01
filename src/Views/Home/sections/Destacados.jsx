@@ -6,7 +6,7 @@ import imagen from "../../../Assets/Images/Home/Producto01.png";
 const Product = ({ image, name, description }) => {
   return (
     <div className={style.productContainer}>
-      <img src={imagen} alt="" />
+      <img src={image} alt="" />
       <div className={style.content}>
         <h6>{name}</h6>
         <p>{description}</p>
