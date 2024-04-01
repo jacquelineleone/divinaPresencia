@@ -1,0 +1,23 @@
+[
+  {
+    "category": "Flores",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "textItem1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "textItem2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711941276/Divina%20Presencia/q6fnceak1pl2z4v8i0kx.png"
+  },
+  {
+    "category": "Plumas de Wax",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "textItem1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "textItem2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711941274/Divina%20Presencia/s48txetlkrkc3sa7s25w.png"
+  },
+  {
+    "category": "Prerolados",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "textItem1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "textItem2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711941276/Divina%20Presencia/q6fnceak1pl2z4v8i0kx.png"
+  }
+]
