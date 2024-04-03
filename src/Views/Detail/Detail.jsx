@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import style from "./styles/detail.module.css";
 import products from "../../Assets/Json/allProducts.json";
 // sections
-import Header from "./sections/Header";
+//import Header from "./sections/Header";
 
 export default function Detail() {
   const { id } = useParams();
@@ -14,10 +14,10 @@ export default function Detail() {
     // page de not found
     //return <div>Producto no encontrado</div>;
   }
-  
+
   return (
     <div>
-      <Header />
+      {/*<Header />*/}
     </div>
   );
 }
