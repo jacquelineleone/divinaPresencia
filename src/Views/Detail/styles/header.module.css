@@ -1,0 +1,82 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.bg {
+  background-image: url("/src/Assets/Images/Detail/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  height: 60vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.content {
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+}
+
+.title h2 {
+  color: #ededed;
+  font-size: 4rem;
+  margin-bottom: -15px;
+}
+
+.title h4 {
+  color: #efa749;
+  font-size: 2.5rem;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  background-color: #172a1670;
+  width: 200px;
+  height: 180px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.card .cardName {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.values {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.card .mainValue {
+  font-size: 3.5rem;
+  margin-bottom: -7.5px;
+}
+
+.card .otherValue {
+  font-size: 2.2rem;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

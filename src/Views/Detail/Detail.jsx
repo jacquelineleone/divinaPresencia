@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import style from "./styles/detail.module.css";
 import products from "../../Assets/Json/allProducts.json";
 // sections
-//import Header from "./sections/Header";
+import Header from "./sections/Header";
+import Description from "./sections/Description";
 
 export default function Detail() {
   const { id } = useParams();
@@ -17,7 +18,8 @@ export default function Detail() {
 
   return (
     <div>
-      {/*<Header />*/}
+      <Header />
+      <Description />
     </div>
   );
 }
