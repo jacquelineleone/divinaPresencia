@@ -13,21 +13,21 @@ const Card = ({ name, data, dataType }) => {
   );
 };
 
-export default function Header() {
+export default function Header({ productName, price, image }) {
   return (
     <div className={style.container}>
       <div className={style.bg}></div>
       <div className={style.content}>
         <div className={style.title}>
-          <h2>Producto 01</h2>
-          <h4>Precio$</h4>
+          <h2>{productName}</h2>
+          <h4>{price}$</h4>
         </div>
         <div className={style.data}>
           <div className={style.cardsContainer}>
             <Card name={"Concentración"} data={24} dataType={"%THC"} />
             <Card name={"Concentración"} data={24} dataType={"%THC"} />
           </div>
-          <img src="https://res.cloudinary.com/dhiqstbrh/image/upload/v1711991941/Divina%20Presencia/flores_ikzgp7.png"/>
+          <img src={image} alt={`Imagen ilustrativa de ${productName}`}/>
         </div>
       </div>
     </div>
