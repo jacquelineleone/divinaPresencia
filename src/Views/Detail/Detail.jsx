@@ -11,6 +11,8 @@ export default function Detail() {
   const productId = parseInt(id);
   const product = products.find((product) => product.id === productId);
 
+  console.log(product);
+
   if (!product) {
     // page de not found
     //return <div>Producto no encontrado</div>;
@@ -18,7 +20,11 @@ export default function Detail() {
 
   return (
     <div>
-      <Header />
+      <Header
+        productName={product.name}
+        price={product.price}
+        image={product.image}
+      />
       <Description />
     </div>
   );
