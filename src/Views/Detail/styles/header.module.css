@@ -76,7 +76,14 @@
 }
 
 .data {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.data img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

@@ -24,8 +24,9 @@ export default function Detail() {
         productName={product.name}
         price={product.price}
         image={product.image}
+        attributes={product.attribute}
       />
-      <Description />
+      <Description info={product.description} />
     </div>
   );
 }
