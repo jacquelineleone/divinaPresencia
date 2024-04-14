@@ -24,6 +24,13 @@
   height: 340px;
 }
 
+.productContainer .image {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .content {
   position: absolute;
   bottom: 0;
@@ -43,4 +50,16 @@
   font-size: 1.1rem;
   max-width: 392px;
   text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 340px;
+}
+
+.swiperSlide {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
 }
