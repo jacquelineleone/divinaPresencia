@@ -2,29 +2,35 @@
   {
     "id": 1,
     "name": "Citrus Bloom",
-    "price": "900 (3gr)",
+    "price": "900",
     "type": "Flores",
-    "attribute": [{ "origen": "California" }],
+    "attribute": [{ "Gramos x precio": "3gr", "Origen": "California" }],
     "description": "Citrus Bloom es el cruce híbrido de Orange Bud y OG Kush. Esta cepa combina a partes iguales una euforia despreocupada con efectos físicos calmantes que la hacen ideal para actividades de ocio. Su aroma es ligeramente floral con matices de lima recién exprimida.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609333/Divina%20Presencia/citrus-bloom_jywstn.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609333/Divina%20Presencia/citrus-bloom_jywstn.png",
+    "homeHeight": 250
   },
   {
     "id": 2,
     "name": "FireFly",
-    "price": "900 (3gr)",
+    "price": "900",
     "type": "Flores",
-    "attribute": [{ "origen": "México" }],
+    "attribute": [{ "Gramos x precio": "3gr", "Origen": "México" }],
     "description": "Se trata de una cepa híbrida de marihuana con una fuerte dominancia indica. Explora por ti mismo los fascinantes sabores y aromas a skunk que distinguen a esta variedad.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609309/Divina%20Presencia/firefly_hqkl1i.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1713127427/Divina%20Presencia/firefly_nwzf3f.png",
+    "homeHeight": 160
   },
   {
     "id": 3,
     "name": "Cosmic Dream",
-    "price": "900 (3gr)",
+    "price": "900",
     "type": "Flores",
-    "attribute": [{ "origen": "México" }],
+    "attribute": [{ "Gramos x precio": "3gr", "Origen": "México" }],
     "description": "Esta cepa, resultado de un cruce entre Blueberry y Haze Cosmic Dream, exhibe una marcada dominancia sativa. Disfruta de sus notas dulces que evocan el frescor de las bayas, acompañadas por los principales terpenos: alfa-pineno, mirceno y beta-cariofileno.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/cosmic-dream_tlmw9t.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/cosmic-dream_tlmw9t.png",
+    "homeHeight": 250
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "type": "Plumas de wax",
     "attribute": [{ "": "" }],
     "description": "Es una sativa pura originaria de la ciudad portuaria sudafricana de Durban. Ha ganado popularidad en todo el mundo por su olor dulce y terroso y su sabor cítrico a pino. Durban Poison es la variedad perfecta para ayudarte a mantenerte productivo durante un día ajetreado con sus efectos energizantes al explorar el aire libre o para dar una chispa de creatividad alegre.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/JetterJuice-DurbanPoison_lojhq9.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/JetterJuice-DurbanPoison_lojhq9.png",
+    "homeHeight": 250
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@
     "type": "Plumas de wax",
     "attribute": [{ "": "" }],
     "description": "SFV OG, también conocida como San Fernando Valley OG, es una cepa icónica que se originó como un fenotipo de OG Kush. Criada por el cultivador Swerve en Cali Connection Farms, en el corazón del Valle de San Fernando en el sur de California, esta cepa se creó mediante el cruce de OG Kush con un Afgano de Homegrown Fantaseeds.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/JetterJuice-SfgOg_aqyrmr.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/JetterJuice-SfgOg_aqyrmr.png",
+    "homeHeight": 250
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@
     "type": "Plumas de wax",
     "attribute": [{ "": "" }],
     "description": "Es un híbrido obtenido del cruce de Cherry Pie y Girl Scout Cookies (GSC). Aporta una esencia aromática excepcionalmente dulce y un sabor afrutado. El sabor es una combinación perfecta de la dulzura de las galletas y el sabor afrutado de una tarta de cerezas.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/JetterJuice-WeedingCake_sptgyy.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/JetterJuice-WeedingCake_sptgyy.png",
+    "homeHeight": 250
   },
   {
     "id": 7,
@@ -60,7 +72,9 @@
     "type": "Sabanas",
     "attribute": [{ "": "" }],
     "description": "Ideal para armar tus cigarros, nuestros papeles de tamaño King son la opción perfecta cuando los papeles de tamaño estándar no son lo suficientemente grandesKing Size es tu mejor aliado.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/sabanas-pink_eshq9f.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/sabanas-pink_eshq9f.png",
+    "homeHeight": 110
   },
   {
     "id": 8,
@@ -69,7 +83,9 @@
     "type": "Sabanas",
     "attribute": [{ "": "" }],
     "description": "Ideal para armar tus cigarros, nuestros papeles de tamaño King son la opción perfecta cuando los papeles de tamaño estándar no son lo suficientemente grandes. King Size es tu mejor aliado.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/sabanas-purple_t5qrc2.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712609308/Divina%20Presencia/sabanas-purple_t5qrc2.png",
+    "homeHeight": 110
   },
   {
     "id": 9,
@@ -78,7 +94,9 @@
     "type": "Blunt",
     "attribute": [{ "": "" }],
     "description": "Descubre Blunt Wrap Double Platinum: dos blunts con sabores exóticos en un sobre herméticamente sellado. Su quemado ultra lento y tamaño XXL garantizan una experiencia única.",
-    "image": ""
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1711989246/Divina%20Presencia/Producto01_vol7an.png",
+    "homeHeight": 130
   },
   {
     "id": 10,
@@ -87,6 +105,8 @@
     "type": "Blunt",
     "attribute": [{ "": "" }],
     "description": "Encendedor Grande Clipper recargable, Coleccionable.",
-    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712610383/Divina%20Presencia/clipper_pwsbte.png"
+    "reduceDescription": "",
+    "image": "https://res.cloudinary.com/dhiqstbrh/image/upload/v1712610383/Divina%20Presencia/clipper_pwsbte.png",
+    "homeHeight": 250
   }
 ]

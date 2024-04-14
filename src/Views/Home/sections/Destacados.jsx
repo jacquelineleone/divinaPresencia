@@ -1,11 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
 import style from "../styles/destacados.module.css";
-import productos from "../json/destacados.json";
+import productos from "../../../Assets/Json/allProducts.json";
 
-const Product = ({ image, name, description }) => {
+const Product = ({ id, image, name, description, imgHeight }) => {
   return (
     <div className={style.productContainer}>
-      <img src={image} alt="" />
+      <Link to={`/producto/${id}`}>
+        <div className={style.image}>
+          <img src={image} alt="" style={{ height: imgHeight }} />
+        </div>
+      </Link>
       <div className={style.content}>
         <h6>{name}</h6>
         <p>{description}</p>
@@ -17,15 +25,32 @@ const Product = ({ image, name, description }) => {
 export default function Destacados() {
   return (
     <div className={style.container}>
-      <h4>Productos Destacados</h4>
+      <h4>Todos los productos</h4>
       <div className={style.products}>
-        {productos.map((producto) => (
-          <Product
-            image={producto.image}
-            name={producto.name}
-            description={producto.description}
-          />
-        ))}
+        <Swiper className={style.swiper} loop={true}>
+          {productos.map(
+            (producto, index) =>
+              index % 3 === 0 && (
+                <SwiperSlide
+                  className={style.swiperSlide}
+                  key={index}
+                  style={{ display: "flex" }}
+                >
+                  {productos.slice(index, index + 3).map((prod, i) => (
+                    <div key={i}>
+                      <Product
+                        id={prod.id}
+                        image={prod.image}
+                        name={prod.name}
+                        description={prod.reduceDescription}
+                        imgHeight={prod.homeHeight}
+                      />
+                    </div>
+                  ))}
+                </SwiperSlide>
+              )
+          )}
+        </Swiper>
       </div>
     </div>
   );
