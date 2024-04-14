@@ -6,14 +6,14 @@ const Card = ({ name, data, dataType }) => {
     <div className={style.card}>
       <p className={style.cardName}>{name}</p>
       <div className={style.values}>
-        <p className={style.mainValue}>{data}</p>
-        <p className={style.otherValue}>{dataType}</p>
+        {data && <p className={style.mainValue}>{data}</p>}
+        {dataType && <p className={style.otherValue}>{dataType}</p>}
       </div>
     </div>
   );
 };
 
-export default function Header({ productName, price, image }) {
+export default function Header({ productName, price, image, attributes }) {
   return (
     <div className={style.container}>
       <div className={style.bg}></div>
@@ -24,10 +24,16 @@ export default function Header({ productName, price, image }) {
         </div>
         <div className={style.data}>
           <div className={style.cardsContainer}>
-            <Card name={"Concentración"} data={24} dataType={"%THC"} />
-            <Card name={"Concentración"} data={24} dataType={"%THC"} />
+            {attributes &&
+              attributes.map((attribute) => (
+                <Card
+                  name={attribute.name}
+                  data={attribute.value}
+                  dataType={attribute.type}
+                />
+              ))}
           </div>
-          <img src={image} alt={`Imagen ilustrativa de ${productName}`}/>
+          <img src={image} alt={`Imagen ilustrativa de ${productName}`} />
         </div>
       </div>
     </div>
