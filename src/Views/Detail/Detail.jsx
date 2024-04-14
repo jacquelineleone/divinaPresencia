@@ -5,6 +5,7 @@ import products from "../../Assets/Json/allProducts.json";
 // sections
 import Header from "./sections/Header";
 import Description from "./sections/Description";
+import NotFound from "./sections/NotFound";
 
 export default function Detail() {
   const { id } = useParams();
@@ -14,8 +15,7 @@ export default function Detail() {
   console.log(product);
 
   if (!product) {
-    // page de not found
-    //return <div>Producto no encontrado</div>;
+    return <NotFound />;
   }
 
   return (
