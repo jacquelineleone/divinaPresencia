@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.bg {
+  background-image: url("/src/Assets/Images/Detail/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+
+  height: 60vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.content {
+  width: 80vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.text {
+
+}
+
+.content img {
+    height: 70vh;
+}
