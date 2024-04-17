@@ -5,7 +5,6 @@ export default function FormInput({
   inputName,
   inputValue,
   inputPlaceholder,
-  width,
   disabledItem,
   onChangeFunction,
   viewOnly,
