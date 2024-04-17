@@ -24,7 +24,7 @@ const Product = ({ id, image, name, description, imgHeight }) => {
 
 export default function Destacados() {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="productos">
       <h4>Todos los productos</h4>
       <div className={style.products}>
         <Swiper className={style.swiper} loop={true}>
