@@ -1,0 +1,25 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal.isOpen {
+  display: flex;
+}
+.modalContainer {
+  position: relative;
+  background-image: url("../../../Assets/Images/Modal/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-y: auto;
+}

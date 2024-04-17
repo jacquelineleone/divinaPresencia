@@ -6,10 +6,10 @@ export default function Nav() {
     <div>
       <h2>La divina presencia</h2>
       <div>
-        <Link>
+        <Link to={"/"}>
           <p>Home</p>
         </Link>
-        <Link>
+        <Link to={"/#productos"}>
           <p>Productos</p>
         </Link>
         <Link>
